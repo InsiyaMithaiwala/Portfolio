@@ -1,4 +1,94 @@
-/* GENERAL */
+<section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-3.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">WorldWise</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://my-worldwise-9ir0fbd9i-insiyas-projects-3d0564e0.vercel.app/'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-1.jpg"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Graphical Analysis and Representation of NFT's</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/InsiyaMithaiwala/Final-Project'"
+              >
+                Github
+              </button>
+              
+            </div>
+          </div>
+          
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/ProjectManagement.jpg"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">BioScope</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/InsiyaMithaiwala/BioScope'">
+                Github
+              </button>
+              
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-2.jpg"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">PermaSecure</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                <!-- onclick="location.href='https://github.com/InsiyaMithaiwala/Scrap-book-'" -->
+              
+                Github
+              </button>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#contact'"
+      />
+    </section> I want the container width to be of equal length  and pictures too should look same size /* GENERAL */
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
@@ -358,33 +448,20 @@ article .icon {
 }
 
 /* PROJECTS SECTION */
+
 #projects {
   position: relative;
 }
 
-.experience-details-container {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  gap: 2rem;
-}
-
-.details-container {
-  padding: 1.5rem;
-  background: white;
-  border-radius: 2rem;
-  border: #8ACDD7 0.1rem solid;
-  text-align: center;
-  flex: 1 1 30%; /* Flex item with equal width */
-  max-width: 350px; /* Ensure the container doesn't grow too large */
-  box-sizing: border-box; /* To include padding in width calculation */
+.color-container {
+  border-color: #8ACDD7;
+  background: rgb(250, 250, 250);
 }
 
 .project-img {
   border-radius: 2rem;
   width: 100%;
-  height: 200px; /* Fixed height for uniformity */
-  object-fit: cover; /* Ensures images maintain aspect ratio */
+  height: 100%;
 }
 
 .project-title {
@@ -396,9 +473,6 @@ article .icon {
   color: black;
   border-color: #8ACDD7;
 }
-
-
-
 
 /* CONTACT */
 
