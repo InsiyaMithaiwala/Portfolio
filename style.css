@@ -397,15 +397,7 @@ article .icon {
   border-color: #8ACDD7;
 }
 
-@media (max-width: 768px) {
-  .details-container {
-    flex: 1 1 100%; /* Stack the containers in smaller screens */
-  }
 
-  .project-img {
-    height: 180px; /* Adjust image size for smaller screens */
-  }
-}
 
 
 /* CONTACT */
