@@ -423,51 +423,6 @@ article .icon {
   height: 2.5rem;
 }
 
-#experience {
-  background-color: #ffffff;
-  padding: 4rem 2rem;
-  text-align: center;
-}
-
-.experience-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
-  margin-top: 2rem;
-}
-
-.experience-card {
-  background: #f9f9e0;
-  padding: 2rem;
-  border-radius: 1.5rem;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.experience-card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
-
-.experience-title {
-  font-size: 1.75rem;
-  font-weight: 600;
-  color: #8acdd7;
-  margin-bottom: 0.5rem;
-}
-
-.experience-company {
-  font-size: 1rem;
-  color: #ff90bc;
-  margin-bottom: 1rem;
-}
-
-.experience-description {
-  font-size: 1rem;
-  color: #555555;
-  line-height: 1.5;
-}
-
 
 /* FOOTER SECTION */
 
